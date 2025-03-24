@@ -10,3 +10,10 @@ hierarchy:
     paths:
       - "nodes/%{trusted.certname}.yaml"
       - "common.yaml"
+  - name: "Per-OS Defaults"
+    paths:
+      - "os/%{facts.os.family}/%{facts.os.name}/%{facts.os.release.full}.yaml"
+      - "os/%{facts.os.family}/%{facts.os.name}/%{facts.os.release.major}.yaml"
+      - "os/%{facts.os.family}/%{facts.os.name}.yaml"
+      - "os/%{facts.os.family}/%{facts.os.release.major}.yaml"
+      - "os/%{facts.os.family}.yaml"
