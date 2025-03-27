@@ -31,7 +31,7 @@ mod 'puppetlabs-ntp', '9.2.2'
 mod 'puppetlabs-stdlib', '9.6.0'
 mod 'puppetlabs-tomcat', '7.2.0'
 mod 'puppetlabs-vcsrepo', '6.1.0'
-mod 'puppetlabs-yumrepo_core', '1.1.0'
+# mod 'puppetlabs-yumrepo_core', '1.1.0'
 
 # Approved
 mod 'alexharvey-firewall_multi', '8.0.1'
@@ -44,8 +44,8 @@ mod 'puppet-cron', '4.1.0'
 mod 'puppet-logrotate', '8.0.0'
 mod 'puppet-nginx', '6.0.1'
 mod 'puppet-redis', '11.1.0'
-mod 'puppet-selinux', '3.4.1'
-mod 'puppet-yum', '6.2.0'
+# mod 'puppet-selinux', '3.4.1'
+# mod 'puppet-yum', '6.2.0'
 
 # Other
 mod 'jdowning-rbenv', '3.1.0'
