@@ -1,0 +1,9 @@
+---
+
+ontoportal::appliance::api_domain_name: data.demo-v4.ontoportal.org
+ontoportal::appliance::ui_domain_name: demo-v4.ontoportal.org
+ontoportal::appliance::api_port: 80
+ontoportal::appliance::api_port_https: 443
+#ontoportal::appliance::manage_firewall: false
+ontoportal::appliance::manage_letsencrypt: true
+letsencrypt::email: support@bioontology.org
