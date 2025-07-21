@@ -63,7 +63,7 @@ mod 'saz-sudo', '8.0.0'
 # Modules from Git
 mod 'ontoportal',
   git:    'https://github.com/alexskr/puppet-ontoportal',
-  branch: '4.1.0'
+  branch: '4.2.0'
 
 mod 'fourstore',
   git:    'https://github.com/alexskr/puppet-fourstore',
