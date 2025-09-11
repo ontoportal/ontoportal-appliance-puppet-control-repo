@@ -18,7 +18,7 @@ forge 'https://forge.puppet.com'
 #
 
 # Supported
-mod 'puppetlabs-accounts', '7.3.1'
+mod 'puppetlabs-accounts', '8.3.1'
 mod 'puppetlabs-apt', '10.0.1'
 mod 'puppetlabs-concat', '7.0.0'
 mod 'puppetlabs-firewall', '8.1.1'
@@ -35,7 +35,7 @@ mod 'puppetlabs-vcsrepo', '6.1.0'
 
 # Approved
 mod 'alexharvey-firewall_multi', '8.0.1'
-mod 'puppet-systemd', '5.2.0'
+mod 'puppet-systemd', '8.3.1'
 mod 'puppet-augeasproviders_core', '4.1.0'
 mod 'puppet-augeasproviders_sysctl', '3.3.0'
 mod 'puppet-augeasproviders_grub', '5.1.2'
