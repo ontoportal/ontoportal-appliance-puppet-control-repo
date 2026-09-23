@@ -63,7 +63,7 @@ mod 'saz-sudo', '8.0.0'
 # Modules from Git
 mod 'ontoportal',
   git:    'https://github.com/alexskr/puppet-ontoportal',
-  branch: '4.2.0'
+  commit: 'f30a0b60ae9484ff6fc5eba40a4b4c63e690f5a2' # v4.3
 
 mod 'fourstore',
   git:    'https://github.com/alexskr/puppet-fourstore',
@@ -77,6 +77,4 @@ mod 'mgrep',
   git:    'https://github.com/alexskr/puppet-mgrep',
   branch: 'main'
 
-mod 'solr',
-   git:    'https://github.com/alexskr/puppet-solr',
-   branch: 'master'
+mod 'markt-solr', '4.2.0'
